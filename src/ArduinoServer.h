@@ -7,6 +7,10 @@ class ArduinoServer{
   public:
     ArduinoServer();
     ~ArduinoServer();
+
+    bool init();
+    void start();
+    void quit();
 };
 
 #endif
