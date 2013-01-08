@@ -1,10 +1,8 @@
+#include <Tests/ArduinoTestSuite.h>
 #include "ArduinoServer.h"
 
-void setup()
+void ArduinoServerTest()
 {
-  ArduinoServer tmp;
-}
+  ATS_begin( "ArduinoServerTest", "hello");
 
-void loop()
-{
 }

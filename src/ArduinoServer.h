@@ -8,7 +8,7 @@ class ArduinoServer{
     ArduinoServer();
     ~ArduinoServer();
 
-    bool init();
+    boolean init();
     void start();
     void quit();
 };

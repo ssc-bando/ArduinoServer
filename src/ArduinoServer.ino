@@ -19,7 +19,7 @@ ArduinoServer::~ArduinoServer()
 //=====================================
 //
 //-------------------------------------
-bool ArduinoServer::init()
+boolean ArduinoServer::init()
 {
 }
 
